@@ -17,6 +17,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `isEmailConfirmed`, `token`) VALUES
-(2,	'Senaid Bacinovic',	'senaidbacinovic@gmail.com',	'$2y$10$0qzNwkoOhAeTFtzQPUgoCuzt79QF1sS4w1kbxhzqm65gumdM8MBHe',	1,	'');
+(2,	'codewonder',	'codewonder@gmail.com',	'$2y$10$0qzNwkoOhAeTFtzQPUgoCuzt79QF1sS4w1kbxhzqm65gumdM8MBHe',	1,	'');
 
 -- 2017-10-07 10:15:24
