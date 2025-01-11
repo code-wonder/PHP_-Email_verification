@@ -1,4 +1,4 @@
-<?php
+le<?php
 	$msg = "";
 	use PHPMailer\PHPMailer\PHPMailer;
 
@@ -30,14 +30,14 @@
                 include_once "PHPMailer/PHPMailer.php";
 
                 $mail = new PHPMailer();
-                $mail->setFrom('hello@codingpassiveincome.com');
+                $mail->setFrom('example@example.com');
                 $mail->addAddress($email, $name);
                 $mail->Subject = "Please verify email!";
                 $mail->isHTML(true);
                 $mail->Body = "
                     Please click on the link below:<br><br>
                     
-                    <a href='http://codingpassiveincome.com/PHPEmailConfirmation/confirm.php?email=$email&token=$token'>Click Here</a>
+                    <a href='https://github.com/code-wonder/codewonder-PHP_Email_verification/edit/main/confirm.php?email=$email&token=$token'>Click Here</a>
                 ";
 
                 if ($mail->send())
