@@ -1,2 +1,2 @@
-# PHP_-Email_verification
+PHP_Email_verification
 Template Login and Registration with email verification
